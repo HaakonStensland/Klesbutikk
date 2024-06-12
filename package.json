@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-website",
+  "version": "1.0.0",
+  "description": "A fullstack ecommerce website",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "connect-sqlite3": "^0.9.15",
+    "express": "^4.17.1",
+    "express-session": "^1.18.0",
+    "sqlite3": "^5.0.2"
+  },
+  "author": "Ditt Navn",
+  "license": "MIT"
+}
